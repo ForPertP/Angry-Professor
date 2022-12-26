@@ -48,7 +48,6 @@ string angryProfessor1(int k, vector<int> a)
     return result;
 }
 
-
 string angryProfessor2(int k, vector<int> a)
 {
     int count = 0;
@@ -65,8 +64,6 @@ string angryProfessor2(int k, vector<int> a)
     
     return ((count >= k) ? "NO" : "YES");
 }
-
-
 
 int main()
 {
